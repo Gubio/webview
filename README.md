@@ -4,7 +4,7 @@ This is a template project for Android Studio that allows you to create an andro
 
 1. [Install Android Studio](http://developer.android.com/sdk/index.html), make sure that the [Android SDK Tools](http://developer.android.com/sdk/index.html#Other) are properly installed and install the [appropriate packages](http://developer.android.com/sdk/installing/adding-packages.html) for the platforms you want to target.
 
-2. [Download](https://github.com/slymax/webview/archive/master.zip) or clone this repository and import it into Android Studio.
+2. [Download](https://github.com/Gubio/webview/archive/master.zip) or clone this repository and import it into Android Studio.
 
 ### Using a remote source
 
@@ -27,15 +27,3 @@ If you want to create an app that displays the contents of a remote website
 	```
 	if (Uri.parse(url).getHost().endsWith("example.com")) {
 	```
-
-### Using a local source
-
-If you want to create a local HTML5 android app
-
-1. uncomment **line 37** in `MainActivity.java`
-
-	```
-	mWebView.loadUrl("file:///android_asset/www/index.html");
-	```
-
-2. replace the boilerplate website in `src/main/assets/www/` with your own HTML, CSS and JavaScript files
